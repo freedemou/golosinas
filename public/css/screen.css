@@ -1,0 +1,454 @@
+@media (max-width: 1400px){
+    .ebus-portada{
+        height: 600px;
+    }
+    .datepicker.dropdown-menu th, .datepicker.datepicker-inline th, .datepicker.dropdown-menu td, .datepicker.datepicker-inline td{
+        padding: 7px 9px;
+    }
+}
+
+@media (max-width: 1366px){
+    .ebus-portada{
+        height: 400px;
+        background-position-y: -166px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ebus-informacion-embarque .puntuaciones .testimonio .item .datos div.bloque{
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    .ebus-informacion-embarque .puntuaciones .testimonio .item .datos div.bloque:first-child{
+        width: 100%;
+        margin-bottom: 12px;
+        padding-right: 0;
+    }
+    .ebus-informacion-embarque .puntuaciones .testimonio .item .datos div.bloque:first-child img{
+        margin: 0 auto;
+    }
+    .ebus-informacion-embarque .puntuaciones .testimonio .item .datos div.bloque:last-child{
+        width: 100%;
+    }
+    .testimonio-carousel{
+        max-height: initial;
+    }
+    .ebus-informacion-embarque .puntuaciones .testimonio .item .calificaciones > button{
+        padding: 4px 0 2px;
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 4px;
+        margin-left: -4px;
+    }
+}
+
+/******************************** PROYECTOR [INICIO] ********************************/ 
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .ebus-buscador .filtros > div{
+        width: calc((100% - 452px) / 2);
+    }
+    .ebus-buscador .filtros > div:nth-child(2) ~ div{
+        width: 144px;
+    }
+    .ebus-buscador .filtros .select2-container--default .select2-selection--single{
+        width: 90%;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered{
+        padding: 0;
+    }
+    .ebus-buscador .filtros .select2-container{
+        width: 82%!important;   
+    }
+    .ebus-encabezado-viaje .informacion .filtro .logo{
+        margin-bottom: 4px;
+    }
+    .ebus-encabezado-viaje .row > .col-md-6:first-child{
+        padding-right: 50px;
+    }
+    .modal .modal-dialog{
+        width: auto!important;
+    }
+    .ebus-principales-socios .lista-socios, .ebus-detalles .row > .col-md-12{
+        padding: 0 15px;
+    }
+    .cargando-bus-contenido{
+        top: 25%;
+        transform: translate(-50%, -25%);
+    }
+    .pago-body .opciones{
+        text-align: center;
+    }
+}
+/******************************** PROYECTOR [FIN] ********************************/
+
+@media screen and (max-width: 1366px) {
+    .ebus-buscador .filtros .select2-container--default{
+        top: 3px!important;
+    }
+}
+
+/******************************** CELULAR [INICIO] ********************************/
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    
+}
+@media screen and (max-width: 600px) {
+    header.header select{
+        background: transparent;
+    }
+    header .menu{
+        display: none;
+    }
+    .filtros{
+        height: auto;
+    }
+    .ebus-buscador .filtros > div{
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .ebus-buscador .filtros > div:last-child{
+        margin-bottom: 0px;
+    }
+    .ebus-portada{
+        height: 300px;
+        background-position-y: inherit;
+    }
+    .ebus-portada.responsive{
+        height: 46px;
+    }
+    .ebus-portada.responsive .ebus-buscador{
+        display: none;
+     }
+    .ebus-buscador .filtros .select2-dropdown{
+        top: 30px;
+    }
+    .ebus-detalles .row > .col-md-12, .ebus-principales-socios .lista-socios{
+        padding: 0 15px;
+    }
+    .ebus-detalles{
+        padding: 200px 0 34px;
+        height: auto;
+    }
+    .ebus-detalles .info{
+        margin-bottom: 20px;
+    }
+    .ebus-detalles .info > .descripcion > p{
+        font-size: 14px;
+    }
+    .ebus-principales-socios .lista-socios ul li img{
+        width: 110px;
+    }
+    .ebus-metodos-pago{
+        height: auto;
+    }
+    .footer{
+        height: auto;
+        padding: 8px 0;
+    }
+    .footer .lista-menu{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .footer .logo-superior{
+        margin: 0 auto;
+        width: 80px;
+        height: 28px;
+    }
+    .footer .lista-menu li{
+        display: inline-block;
+    }
+    .footer .lista-menu li a{
+        font-size: 10px;
+    }
+    .menu-sandwich{
+        display: inherit;
+    }
+    .ebus-body.responsive{
+        z-index: 3;
+    }
+    .ebus-header-opcion{
+        height: auto;
+        padding: 16px 0 6px;
+        /*display: none;*/
+    }
+    .ebus-header-opcion .menu ul{
+        width: 100%;
+        display: block;
+    }
+    .ebus-header-opcion .menu ul li{
+        width: 50%;
+        display: inline-block;
+        margin-right: -4px;
+        margin-bottom: 4px;
+    }
+    .ebus-header-opcion .menu ul > li > a{
+        padding: 10px 22px!important;
+        background-color: #cfd3e0;
+        border-radius: 100px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .ebus-filtros.active{
+        margin-left: 0px;
+    }
+    .lista-busqueda-filtrar, .accordion-filtrar{
+        display: inherit;
+    }
+    .ebus-lista-busqueda .espacio-contenido-col{
+        width: 100%;
+    }
+    .contenedor-resultados .bloque{
+        display: block;
+    }
+    .contenedor-resultados .bloque.imagen{
+        margin: 0 auto;
+    }
+    .contenedor-resultados .bloque.imagen > div{
+        width: 100%;
+        text-align: center;
+    }
+    .contenedor-resultados .bloque.imagen dl img{
+        max-width: 180px;
+    }
+    .contenedor-resultados .bloque.origen-destino{
+        width: 100%;
+        line-height: 14px;
+    }
+    .contenedor-resultados .bloque.calificacion{
+        margin-bottom: 10px;
+        width: 100%;
+        line-height: 14px;
+    }
+    .contenedor-resultados .bloque.calificacion > div dl:nth-child(2){
+        display: none;
+    }
+    .contenedor-resultados .bloque.precio{
+        width: 100%;
+    }
+    .contenedor-resultados .bloque.precio > div{
+        float: inherit!important;
+        display: block;
+        text-align: center;
+    }
+    .contenedor-resultados .bloque.precio div:nth-child(1) dl > button{
+        width: 100%;
+    }
+    .contenedor-resultados .bloque.precio div:nth-child(1) dl > button > span:nth-child(2){
+        font-size: 30px;
+    }
+    .contenedor-resultados .bloque div{
+        display: inline-block;
+    }
+    .contenedor-resultados .bloque div dl{
+        margin: 0 0 4px;
+    }
+    .ebus-asientos{
+        padding: 0 0 26px;
+        height: 100vh;
+    }
+    .ebus-asientos .precios{
+        display: block;
+        text-align: center;
+        /*margin-bottom: 10px;*/
+        margin-bottom: 0;
+    }
+    .ebus-asientos .precios div:nth-child(1) label{
+        margin: 0 0 12px;
+    }
+    .col-contenedor-bus{
+        /*width: 100%;
+        padding: 0 15px;
+        margin-bottom: 100px;
+        transform: scale(1.2);
+        margin-top: 80px;*/
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 8px;
+        transform: scale(1);
+        margin-top: 0;
+    }
+    .ebus-fila-busqueda > .container.active-asiento:after{
+        right: calc(50% - 16px);
+        display: none;
+    }
+    .contenedor-bus-boton button{
+        padding: 4px 22px!important;
+    }
+    .col-contenedor-leyenda{
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 0 15px;
+    }
+    .col-contenedor-formulario{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .ebus-encabezado-viaje{
+        background: rgba(227,227,227,1);
+        top: 54px;
+    }
+    .ebus-encabezado-viaje .flecha-icono{
+        display: none;
+    }
+    .ebus-encabezado-viaje .pasaje-retorno{
+        border-top: 1px dashed #9292924a;
+        height: 40px;
+    }
+    .ebus-encabezado-viaje .pasaje-retorno > button{
+        padding: 6px 22px;
+    }
+    .ebus-encabezado-viaje .informacion{
+        padding: 4px 0 2px;
+    }
+    .ebus-encabezado-viaje .informacion .lista{
+        margin-top: 2px;
+        font-size: 12px;
+    }
+    .ebus-encabezado-viaje .informacion h6{
+        font-size: 14px;
+    }
+    .ebus-encabezado-viaje .informacion:last-child{
+        border-top: 1px dashed #9292924a;
+    }
+    .ebus-encabezado-viaje .informacion[data-viaje='vuelta']{
+        border-top: 1px dashed #9292924a;
+    }
+    .ebus-encabezado-viaje .informacion .bloque{
+        line-height: 20px;
+    }
+    .ebus-encabezado-viaje .informacion .bloque > div{
+        vertical-align: middle;
+        font-size: 16px;
+    }
+    .ebus-encabezado-viaje .informacion .filtro .logo > img{
+        max-width: 114px;
+    }
+    .header.horarios{
+        padding: 2px 0;
+    }
+    header.header label{
+        color: #444;
+    }
+    .ebus-leyenda{
+        max-width: initial;
+        border-radius: 4px;
+    }
+    .cargando-bus-contenido{
+        top: 25%;
+        transform: translate(-50%, -25%);
+    }
+    .resultados-busqueda .carga-resultados{
+        height: 100vh;
+    }
+    #modal-segundo .modal-dialog{
+        width: 98%;
+    }
+    .ebus-encabezado-viaje .informacion .lista ul li{
+        display: inline-block;
+    }
+    .ebus-encabezado-viaje .informacion .lista ul > li > i{
+        width: auto;
+    }
+    .resultados-busqueda .carga-resultados .icono-cargando{
+        top: 38%;
+    }
+    .header .logo{
+        width: 98px;
+    }
+    .direccion-rutas > div{
+        line-height: 16px;
+    }
+    .ebus-lista-busqueda .ebus-fila-busqueda .contenedor-resultados{
+        padding: 8px 0 4px;
+    }
+    .ebus-lista-busqueda .ebus-fila-busqueda:last-child .contenedor-resultados{
+        padding: 10px 0 46px;
+    }
+    .puntuaciones{
+        width: 100%;
+        max-width: 308px;   
+    }
+    .ebus-informacion-embarque .puntuaciones .testimonio .item{
+        padding: 0 18px;
+    }
+    .ebus-encabezado-viaje .pasaje-retorno{
+        display: none!important;
+    }
+    .ebus-contenedor-viaje{
+        margin-bottom: 28px;
+        background-color: transparent;
+    }
+    .ebus-contenedor-viaje > .botones{
+        padding: 0;
+    }
+    .titulo-continuidad{
+        text-align: center;
+    }
+    .ebus-asientos .precios ul{
+        margin: 4px 0 16px;
+    }
+    .ebus-asientos .precios ul li a.ebus-btn{
+        padding: 10px 12px!important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ebus-principales-socios .lista-socios ul li img {
+        width: 150px;
+    }
+    .ebus-metodos-pago ul{
+        margin-top: 14px;
+    }
+    .ebus-metodos-pago ul li{
+        margin-bottom: 10px;
+    }
+    .ebus-metodos-pago ul li img{
+        width: 76px;
+    }
+}
+/******************************** CELULAR [FIN] ********************************/
+
+/******************************** TABLET [INICIO] ********************************/
+@media screen and (max-width: 768px) {
+    
+}
+/******************************** TABLET [FIN] ********************************/
+
+/******************************** DESKTOP [INICIO] ********************************/
+@media screen and (max-width: 1200px) {
+    
+}
+/******************************** DESKTOP [FIN] ********************************/
+
+@media (max-width:767px) {
+    .hidden-xs{
+        display: none;
+    }
+}
+
+@media print {
+    header.header,
+    .pago-body .opciones,
+    footer.footer{
+        display: none!important;
+    }
+    .col-md-6{
+        width: 50%!important;
+        float: left!important;
+    }
+    .col-md-4{
+        width: 33.33333333%!important;
+        float: left!important;
+    }
+    .pago-body .row,
+    .sp_fila_asiento {
+        width: 100%;
+        display: inline-block;
+    }
+    .pago-body a.ebus-btn{
+        color: #333!important;
+        text-decoration: underline!important;
+        padding: 0!important;
+        text-align: left!important;
+    }
+}

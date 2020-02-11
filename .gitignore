@@ -1,0 +1,9 @@
+.vagrant/
+vendor/
+config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+phpunit.xml
+/nbproject/private/
+/node_server/node_modules/*
+/data/cache_json/*

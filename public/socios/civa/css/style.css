@@ -1,0 +1,149 @@
+.header .logo {
+    width: 202px;
+    height: 41px;
+    background-image: url(../img/logo_civa.png);
+}
+.header .logo > img {
+    width: 202px;
+}
+.header {
+    background: #002939;
+    padding: 16px 0 17px
+}
+.menu {
+    margin-top: 6px;
+}
+.ebus-portada {
+    position: relative;
+    background-image: url(../img/bg_portada.png);
+}
+.ebus-buscador {
+    top: 84%;
+}
+.ebus-detalles {
+    height: auto;
+    padding: 60px;
+}
+.menu .ebus-btn-blue {
+    background-color: transparent;
+}
+.menu .ebus-btn-orange, .ebus-rutas-destacadas .ebus-btn-orange {
+    background-color: #c10079;
+    color: #ffffff!important;
+    border-radius: 9px;
+}
+.ebus-detalles .info > .icon > i {
+    color: #d826c1;
+}
+.ebus-detalles .info > .descripcion > h1 {
+    color: #232323;
+}
+.filtros{
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.45);
+}
+.ebus-buscador .filtros > div .group-input-icon{
+    border-radius: 6px;
+}
+.ebus-buscador .filtros > div .group-input-icon > a.btn-buscar {
+    background: #c10079;
+    border-radius: 6px;
+}
+.footer .logo-superior {
+    background-image: url(../img/logo_civa.png);
+    width: 152px;
+    height: 51px;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: #232323;
+}
+.ebus-destacados .boton a.ebus-btn{
+    border-radius: 7px;
+}
+.ebus-destacados .left-hero .left-hero-tilt {
+    background: url('../img/d1.jpg') no-repeat center center;
+}
+.ebus-destacados .right-hero .right-hero-tilt {
+    background: url('../img/d2.jpg') no-repeat center center;
+}
+.ebus-destacados .destacados-contenedor .bloque-contenedor .bloque .boton > a{
+    background-color: #c10079;
+    color: #ffffff;
+}
+.ebus-h1{
+    font-family: 'abeezeeregular';
+}
+.ebus-h1-border:after {
+    border-bottom: 6px solid #d826c1;
+}
+.ebus-metodos-pago{
+    height: 290px;
+}
+.ebus-rutas-destacadas .seccion-rutas .rutas .bloque-titulo > .titulo{
+    text-align: center;
+}
+.header .menu ul li.dropdown .dropdown-menu{
+    right: 0px!important;
+    left: inherit!important;
+    background: #002939b0;
+    border-radius: 0;
+    font-size: 14px;
+    border: none;
+}
+.header .menu ul li.dropdown .dropdown-menu a{
+    color: #ffffff;
+    padding: 6px 10px;
+}
+.header .menu ul li.dropdown .dropdown-item:hover, .header .menu ul li.dropdown .dropdown-item:focus{
+    background-color: #001c27;
+}
+@media screen and (max-width: 1360px) {
+    .ebus-mouse {
+        top: calc(92% - 2px);
+    }
+    .ebus-buscador {
+        top: 80%;
+    }
+}
+#preciobarCharts1 .ct-series .ct-bar, #horaSalidabarCharts1 .ct-series .ct-bar, #horaLlegadabarCharts1 .ct-series .ct-bar{
+    stroke: #5d5d5d!important;
+}
+.u-range-slider .irs-slider:after{
+    background: #f11f6c;
+}
+.contenedor-resultados .bloque.precio div:nth-child(1) dl > button{
+    background: #c10079;
+}
+.contenedor-resultados .bloque.calificacion div dl:nth-child(1) span.hearts{
+    color: #c10079;
+}
+.bloque.calificacion .ebus-tabs-informacion.current{
+    color: #c10079;
+}
+.ebus-informacion-embarque .embarque .bloque div:nth-child(2) dl a{
+    background-color: #5d5d5d
+}
+.ebus-informacion-embarque .puntuaciones .testimonio .item .calificaciones > button{
+    background-color: #c10079;
+}
+.cargando{
+    background: #404040;
+}
+.ebus-header-opcion .ebus-btn.menu-activo{
+    background-color: #5d5d5d!important;  
+}
+.ebus-asientos .precios ul li a.active{
+    background-color: #c10079!important;
+}
+.ebus-btn-orange{
+    background-color: #c10079;
+}
+.ebus-buscador .filtros .select2-container--default .select2-selection--single,
+.ebus-buscador .filtros .select2-container--default .select2-selection--single .select2-selection__rendered,
+.ebus-buscador .filtros .select2-dropdown,
+.ebus-buscador .filtros .select2-search--dropdown,
+.ebus-buscador .filtros .select2-container--default .select2-search--dropdown .select2-search__field,
+.ebus-buscador .filtros > div .group-input-icon > input, .ebus-buscador .filtros > div .group-input-icon > select{
+    border-radius: 0 5px 5px 0;
+}

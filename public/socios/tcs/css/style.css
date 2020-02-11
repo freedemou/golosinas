@@ -1,0 +1,108 @@
+.header .logo {
+    width: 202px;
+    height: 41px;
+    background-image: url(../img/cds_logo_superior.png);
+}
+.header .logo > img {
+    width: 202px;
+}
+.header {
+    background: #113e84;
+    padding: 16px 0 17px
+}
+.menu {
+    margin-top: 6px;
+}
+.ebus-portada {
+    position: relative;
+    background-image: url(../img/bg_cds.png);
+}
+.ebus-buscador {
+    top: 92%;
+}
+.ebus-detalles {
+    height: auto;
+    padding: 60px;
+}
+.menu .ebus-btn-blue {
+    background-color: #005fc3;
+}
+.menu .ebus-btn-orange, .ebus-rutas-destacadas .ebus-btn-orange {
+    background-color: #f8c438;
+    color: #1c2b46!important;
+}
+.ebus-detalles .info > .icon > i {
+    color: #005fc3;
+}
+.ebus-detalles .info > .descripcion > h1 {
+    color: #232323;
+}
+.footer .logo-superior {
+    background-image: url(../img/cds_logo_superior.png);
+    width: 202px;
+    height: 41px;
+    margin-bottom: 25px;
+}
+.footer {
+    background-color: #0d3277;
+}
+.ebus-destacados .left-hero .left-hero-tilt {
+    background: url('../img/d1.jpg') no-repeat center center;
+}
+.ebus-destacados .right-hero .right-hero-tilt {
+    background: url('../img/d2.jpg') no-repeat center center;
+}
+.header .menu ul li.dropdown .dropdown-menu{
+    border-radius: 0;
+}
+.filtros{
+    border-radius: 50px;
+}
+.ebus-buscador .filtros > div .group-input-icon{
+    border-radius: 21px;
+}
+.ebus-buscador .filtros > div .group-input-icon > a.btn-buscar {
+    background: #0d3277;
+    border-radius: 21px;
+}
+#preciobarCharts1 .ct-series .ct-bar, #horaSalidabarCharts1 .ct-series .ct-bar, #horaLlegadabarCharts1 .ct-series .ct-bar{
+    stroke: #0067b2!important;
+}
+.u-range-slider .irs-slider:after{
+    background: #f8c438;
+}
+.contenedor-resultados .bloque.precio div:nth-child(1) dl > button{
+    background: #0067b2;
+}
+.contenedor-resultados .bloque.calificacion div dl:nth-child(1) span.hearts{
+    color: #f8c438;
+}
+.bloque.calificacion .ebus-tabs-informacion.current{
+    color: #0067b2;
+}
+.ebus-informacion-embarque .embarque .bloque div:nth-child(2) dl a{
+    background-color: #0067b2
+}
+.ebus-informacion-embarque .puntuaciones .testimonio .item .calificaciones > button{
+    background-color: #f8c438;
+}
+.cargando{
+    background: #00497e;
+}
+.ebus-asientos .precios ul li a.active{
+    background-color: #0067b2!important;
+}
+.ebus-btn-orange{
+    background-color: #0067b2;
+}
+.ebus-buscador .filtros .select2-container--default .select2-selection--single,
+.ebus-buscador .filtros .select2-container--default .select2-selection--single .select2-selection__rendered,
+.ebus-buscador .filtros .select2-dropdown,
+.ebus-buscador .filtros .select2-search--dropdown,
+.ebus-buscador .filtros .select2-container--default .select2-search--dropdown .select2-search__field,
+.ebus-buscador .filtros > div .group-input-icon > input, .ebus-buscador .filtros > div .group-input-icon > select{
+    border-radius: 0 20px 20px 0;
+}
+.ebus-buscador .filtros .select2-dropdown{
+    background-color: #FFFFFF;
+}
