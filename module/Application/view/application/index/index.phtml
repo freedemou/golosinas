@@ -12,34 +12,94 @@
 		font-size: 16px!important;
 		color: #b1b1b1!important;
 	}
+	.opciones{
+		margin-bottom: 10px;
+	    box-shadow: 0 4px 10px -4px #333;
+	}
+	.opciones > *{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: -4px;
+		width: 50%;
+		text-align: center;
+	    padding: 10px;
+    	color: #000000;
+    	background-color: #dadada;
+	}
+	.opciones > div.active{
+		background-color: #2196F3;
+    	color: #FFFFFF;
+	}
+	.contenedor-tabs > div{
+		display: none;
+	}
+	.contenedor-tabs > div.active{
+		display: inherit;
+	}
+	.fd-btn{
+		border: none;
+	    color: #fff;
+	    padding: 10px;
+	    width: 100%;
+	}
+	.fd-btn-primary{
+		background-color: #3F51B5;
+	}
 </style>
 <section>
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-12">
+				<div class="opciones">
+					<div class="icono-buscar active" data-hash="buscar"><i class="fas fa-search"></i></div>
+					<div class="icono-agregar" data-hash="agregar"><i class="fas fa-plus"></i></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-12 col-xs-12">
-				<form action="">
-					<section class="form-group">
-						<label>Producto</label>
-						<input type="text" class="form-control" placeholder="Ingrese el nombre del producto" value="Morochas">
-					</section>
-					<section class="form-group">
-						<label>Descripción</label>
-						<textarea class="form-control" placeholder="Ingrese el nombre del producto">Galletas Morochas Bolsa 46 g</textarea>
-					</section>
-					<section class="form-group">
-						<label>Precio Caja</label>
-						<input type="text" class="form-control" placeholder="Ingrese el nombre del producto" value="14.00">
-					</section>
-					<section class="form-group">
-						<label>Precio Caja Comerciantes</label>
-						<input type="text" class="form-control" placeholder="Ingrese el nombre del producto" value="13.50">
-					</section>
-					<section class="form-group">
-						<label>Precio Unidad</label>
-						<input type="text" class="form-control" placeholder="Ingrese el nombre del producto" value="1.60">
-					</section>
-				</form>
+				<div class="contenedor-tabs">
+					<div data-hash="buscar" class="active">
+						Consultar
+					</div>
+					<div data-hash="agregar">
+						<form id="form-agregar">
+							<section class="form-group">
+								<label>Producto</label>
+								<input type="text" class="form-control" placeholder="Ingrese el nombre del producto">
+							</section>
+							<section class="form-group">
+								<label>Descripción</label>
+								<textarea class="form-control" placeholder="Ingrese el nombre del producto"></textarea>
+							</section>
+							<section class="form-group">
+								<label>Precio Caja</label>
+								<input type="text" class="form-control" placeholder="Ingrese el nombre del producto">
+							</section>
+							<section class="form-group">
+								<label>Precio Caja Comerciantes</label>
+								<input type="text" class="form-control" placeholder="Ingrese el nombre del producto">
+							</section>
+							<section class="form-group">
+								<label>Precio Unidad</label>
+								<input type="text" class="form-control" placeholder="Ingrese el nombre del producto">
+							</section>
+							<button type="submit" class="fd-btn fd-btn-primary">Agregar Nuevo Producto</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<script>
+	<?php $this->inlineScript()->captureStart(); ?>
+	$(document).ready(function(){
+		$(".opciones > div").click(function(){
+		    var hash = $(this).attr("data-hash");
+		    $(".opciones > div, .contenedor-tabs > div").removeClass("active");
+		    $(".opciones > div[data-hash='"+hash+"'], .contenedor-tabs > div[data-hash='"+hash+"']").addClass("active");
+		});
+	});
+	<?php $this->inlineScript()->captureEnd(); ?>
+</script>
